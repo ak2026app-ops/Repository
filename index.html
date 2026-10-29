@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"><head><title>Mr.X – Stock Market Tracker</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{--bg:#f3f5f7;--ink:#14213d;--mute:#5b667a;--up:#1b7f5c;--down:#c8433a;--line:#d9dee6}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.65}
+header,main,footer{max-width:680px;margin:0 auto;padding:20px}
+header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)}
+header a{color:var(--ink);text-decoration:none;font-weight:700;font-size:20px}
+nav a{color:var(--mute);font-weight:400;font-size:15px;margin-left:16px}
+h1{font-size:34px;line-height:1.2;margin:32px 0 12px}
+h2{font-size:19px;margin:28px 0 6px}
+p{margin:0 0 12px;max-width:62ch}
+.btn{display:inline-block;background:var(--ink);color:#fff;padding:14px 22px;border-radius:6px;text-decoration:none;font-weight:600;margin-top:8px}
+.up{color:var(--up);font-weight:600}.down{color:var(--down);font-weight:600}
+table{width:100%;border-collapse:collapse;margin:20px 0;background:#fff;border:1px solid var(--line)}
+td,th{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line);font-size:15px}
+th{color:var(--mute);font-weight:500}
+footer{color:var(--mute);font-size:14px;border-top:1px solid var(--line);margin-top:40px}
+footer a{color:var(--mute)}
+</style></head><body>
+<header><a href="index.html">Mr.X</a><nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></header>
+<main>
+<h1>Follow the stock market in one place.</h1>
+<p>Mr.X shows stock prices, market news and company performance so you can track what matters to you. Sign in with TikTok to save your watchlist.</p>
+<a class="btn" href="#" id="login">Continue with TikTok</a>
+<p style="color:var(--mute);font-size:14px;margin-top:14px">We only read your TikTok display name and avatar. We never post on your behalf.</p>
+<table>
+<tr><th>Symbol</th><th>Price</th><th>Change</th></tr>
+<tr><td>AAA</td><td>124.50</td><td class="up">+1.8%</td></tr>
+<tr><td>BBB</td><td>58.20</td><td class="down">-0.9%</td></tr>
+<tr><td>CCC</td><td>310.75</td><td class="up">+0.4%</td></tr>
+</table>
+<p style="color:var(--mute);font-size:14px">Sample data shown for demonstration. Information is not financial advice.</p>
+</main>
+<footer>&copy; 2026 Mr.X &middot; <a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a> &middot; ak2026app@gmail.com</footer>
+</body></html>
