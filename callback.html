@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mr.X – Signing in</title>
+<style>body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#f3f5f7;color:#14213d;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:20px}a{color:#14213d}</style>
+</head><body>
+<div><h1>Mr.X</h1><p id="msg">Finishing sign-in with TikTok...</p><p><a href="index.html">Back to Mr.X</a></p></div>
+<script>
+var p=new URLSearchParams(location.search);
+document.getElementById("msg").textContent=p.get("code")?"TikTok authorization received. You can return to the app.":(p.get("error")?"Authorization was cancelled.":"Waiting for TikTok authorization.");
+</script>
+</body></html>
